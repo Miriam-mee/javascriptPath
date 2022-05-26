@@ -1,1 +1,4 @@
 # javascriptPath
+
+#ignore
+.txt files 
