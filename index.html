@@ -1,0 +1,42 @@
+        <html>
+            <head>
+                <title>My App</title>
+            </head>
+            <body>
+        <button>Click Me!</button>
+                
+        <!-- <div>Get groceries</div>
+        <div>Make diner</div>
+        <div>Wash car</div> -->
+
+        <script>
+
+        let todo1= 'get Groceries';
+        let todo2= 'wash Car';
+        let todo3 ='Make Dinner';
+
+        function addTodo(todoTitle){
+        let element = document.createElement('div');
+        element.innerText =todoTitle;
+        document.body.appendChild(element);
+        }
+        
+
+    addTodo(todo1);
+    addTodo(todo2);
+    addTodo(todo3)
+
+
+        // element = document.createElement('div');
+        // element.innerText =todo2;
+        // document.body.appendChild(element);
+
+        // element = document.createElement('div');
+        // element.innerText =todo3;
+        // document.body.appendChild(element);
+
+
+
+                </script>
+            </body>
+        </html>
